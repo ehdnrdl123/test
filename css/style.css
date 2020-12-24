@@ -1,0 +1,245 @@
+
+#container{
+    width: 1320px;
+    height: 1800px;
+    margin: 0 auto;
+    border: 1px solid #000;
+    position: relative;
+}
+#header {
+    width: 100%;
+    height: 190px;
+    position: relative;
+}
+#header .local{
+    position: absolute;
+    top: 43px;
+    right: 60px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+#header .local>p>a{
+    color: #000000;
+}
+#header .local>p>a:hover{
+    text-decoration: underline;
+}
+#header .logo>a>img{
+    position: absolute;
+    top: 67px;
+    left: 636px;
+}
+#nav{
+    position: absolute;
+    left:330px;
+    top: 123px;
+}
+#nav .mainmenu>li{
+    float:left;
+    text-align: center;
+}
+#nav .mainmenu>li>a{
+    line-height: 40px;
+    display: block;
+     width: 110px;
+    height: 41px;
+    color: #00635a;
+}
+#nav .mainmenu>li>a:hover{
+    background-color: #fef0cc; 
+}
+.submenu{
+    position: absolute;
+    top: 41px;
+    background-color: #6b9691;
+    width: 661px;
+    height: 137px;
+    display: none;
+    z-index: 999;
+}
+.submenu .sub>li{
+    float: left;
+    text-align: center;
+    width: 110px;
+    line-height: 40px;
+}
+.submenu .sub a{
+    color: white;
+}
+.submenu .sub a:hover{
+    color: #ffbf02;
+}
+#visual{
+    width: 100%;
+    height: 571px;
+    position: relative;
+}
+#visual div{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+#visual div img{
+    width: 100%;
+    height: 100%;
+}
+.bx-controls-direction{
+    text-indent: -999;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+}
+#contents{
+    margin-top: 10px;
+}
+#contents>.contitle1{
+    margin: 0 auto;
+    width: 1060px;
+    height: 51px;
+    text-align: center;
+    background-color: #fdda80;
+    display: block;
+}
+.bx-controls{
+    position: relative;
+}
+.bx-pager{
+    font-size: 0;
+   position: absolute;
+    left: 620px;
+    top: -30px;
+    display: block;
+    box-sizing: border-box;
+}
+.bx-pager-item{
+    display: inline-block;
+    padding: 0 5px;
+}
+.bx-pager-item a{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #999;
+    z-index: 999;
+}
+.bx-pager-item a.active{
+    background-color: white;
+}
+.far{
+    font-size: 3em;
+    color: white;
+}
+#prevBtn{
+    position: absolute;
+    top: 475.5px;
+    left: 10px;
+}
+#nextBtn{
+    position: absolute;
+    top: 475.5px;
+    right:10px;
+}
+#contents img:hover{
+    opacity: 70%;
+}
+.contitle1>p{
+    font-size: 24px;
+    color: #00635a;
+    line-height: 45px;
+    font-weight: bold;
+}
+.contents1>ul{
+    width: 1060px;
+    margin-left: 130px;
+    margin-top: 9px;
+}
+.contents1>ul>li{
+    float: left;
+    text-align: center;
+}
+.contents1>ul>li:first-child{
+    margin-right: 63px;
+}
+.contents1>ul>li:nth-child(2){
+    margin-right: 57px;
+}
+.contents1>ul>li a{
+    color: #00635a; 
+}
+.contents1>ul>li a:hover{
+    font-weight: bold;
+}
+#contents>.contitle2{
+    margin: 30px auto 0;
+    width: 1060px;
+    height: 51px;
+    text-align: center;
+    background-color: #fdda80;
+    display: block;
+}
+.contitle2>p{
+    font-size: 24px;
+    color: #00635a;
+    line-height: 45px;
+    font-weight: bold;
+}
+.contents2>ul{
+    width: 1060px;
+    margin-left: 130px;
+    margin-top: 9px;
+}
+.contents2>ul>li{
+    float: left;
+    text-align: center;
+}
+.contents2>ul>li:first-child{
+    margin-right: 63px;
+}
+.contents2>ul>li:nth-child(2){
+    margin-right: 57px;
+}
+.contents2>ul>li a{
+    color: #00635a; 
+}
+.contents2>ul>li a:hover{
+    font-weight: bold;
+}
+#footer{
+    margin-top: 43px;
+}
+#footer .foothead{
+    width: 100%;
+    height: 52px;
+    background-color:#fef0cc;
+    text-align: center;
+    line-height: 50px;
+}
+#footer .foothead>p>a{
+    color: #000000;
+}
+#footer .foothead>p>a:hover{
+    text-decoration: underline;
+}
+#footer .foottext{
+    width: 100%;
+    height: 203px;
+    position: relative;
+}
+.foottext>a>img{
+    position: absolute;
+    left: 475px;
+    top: 77px;
+}
+.foottext .textbox{
+    position: absolute;
+    left: 572px;
+    top: 32px;
+    color: #000000;
+}
+.textbox>a{
+    color: #000000;
+}
+.textbox>a:hover{
+    text-decoration: underline;
+}

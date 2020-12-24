@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: "맑은고딕";
+    color: #00635a;
+    background-image: url(../images/background_02.png);
+}
+#container{
+    background: white;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,a{
+    margin: 0;
+    padding: 0;
+}
+
+
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+table{
+    border-collapse: collapse;
+}
+.clearfix:after{
+    display: block;
+    clear: both;
+    content:'';
+}
